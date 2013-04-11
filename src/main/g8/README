@@ -1,5 +1,10 @@
-A sample for the Typesafe Stack (http://typesafe.com/stack).
 
-Scala sample project using Scala and SBT.
+Custom g8 template to create a bootstrap scala application based on typesafehub/scala-sbt.g8
+
+Libraries
+------------
+Testing -  libraries scalatest, junit, scalacheck, specs
+Other - scalaz
 
 To run and test it use SBT invoke: 'sbt run'
+To generate Intellij IDEA project invoke 'sbt gen-idea'
